@@ -160,6 +160,7 @@ void Application::CreateGame()
 
 void Application::DestroyGame()
 {
+    m_connections.clear();
     m_game.reset();
 }
 
